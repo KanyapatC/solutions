@@ -1,0 +1,1 @@
+Window+R >> Regedit >> Copy/paste "%Systemroot%\system32\rundll32.exe" shell32.dll,Control_RunDLL desk.cpl,,0
