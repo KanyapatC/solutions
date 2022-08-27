@@ -6,6 +6,7 @@ Step 1
 Go to Download Java 
 
 Link:
+
 https://adoptopenjdk.net/ 
 
 https://docs.aws.amazon.com/corretto/
