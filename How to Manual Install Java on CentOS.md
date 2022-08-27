@@ -6,10 +6,14 @@ Step 1
 Go to Download Java 
 
 Link:
-https://adoptopenjdk.net/
+https://adoptopenjdk.net/ 
+
 https://docs.aws.amazon.com/corretto/
+
 https://www.azul.com/downloads/?package=jdk
+
 https://bell-sw.com/pages/downloads/#/java-17-lts%20/%20current
+
 https://community.chocolatey.org/packages/openjdk#versionhistory
 
 Recommend: Verify End-of-life product
@@ -66,8 +70,7 @@ Step 5
 Run the below commands:
 
 ```
-alternatives --install /usr/bin/java 
-java /app/java/jdk-11.0.11+9/bin/java 2
+alternatives --install /usr/bin/java java /app/java/jdk-11.0.11+9/bin/java 2
 alternatives --config java
 ```
 
