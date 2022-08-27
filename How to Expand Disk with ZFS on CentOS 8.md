@@ -2,7 +2,7 @@
 
 # Probleam:
 
-  For change group LVM disk full with Tools ZFS for expan pool data
+  For change group LVM disk full with Tools ZFS for expand pool data
 
 
 # Install ZFS
