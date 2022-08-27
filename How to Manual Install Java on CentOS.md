@@ -86,7 +86,7 @@ alternatives --set javac /app/java/jdk-11.0.11+9/bin/javac
 ```
 
 Step 7
-Verify Java version:
+Verify Java version with command:
 
 ```
 java -version
