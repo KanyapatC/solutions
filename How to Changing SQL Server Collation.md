@@ -2,7 +2,7 @@
 
 # Probleam:
 
-  For change collation new after install, because has issues query data but has syntax wrong it affects script data not working. So must change collation new again after installation
+  For change collation new after install, because has issues query data but has syntax wrong it affects script data not working. So must change collation new again after installation.
 
 # Collation:
 
