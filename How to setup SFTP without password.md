@@ -1,7 +1,8 @@
 # How to setup SFTP without password
 
-You can sftp to server both (Linux to Linux or Linux to Windows) by ** windows must install Openssh https://github.com/PowerShell/Win32-OpenSSH/releases
-And Linux install OpenSSH
+You can sftp to server both (Linux to Linux or Linux to Windows) by
+- Windows must install Openssh https://github.com/PowerShell/Win32-OpenSSH/releases
+- Linux install OpenSSH
 
 ```
 yum –y install openssh-server openssh-clients
