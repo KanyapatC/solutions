@@ -17,7 +17,7 @@ systemctl stop sshd
 
 # Genarent as Key Pair
 
-Execute the following commands at Localhost
+Execute the following commands at Localhost.
 ```
 user@localhost~$> ssh-keygen -t rsa 
 ```
