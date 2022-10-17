@@ -1,6 +1,7 @@
 # How to Generate self signed certificate
 
 You can create self signed certificate for test security HTTPS on your Web server
+For wildcard SSL
 
 Command: 
 ```
@@ -23,3 +24,22 @@ Command:
 openssl pkcs12 -export -out <Yourname>.pfx -inkey <Yourname_Private>.key -in <Yourname_Cert>.crt
 ```
 Ref. https://www.sslshopper.com/ssl-converter.html
+
+
+# Add Intermediate Cert to .PFX file
+You must download Intermediate Cert from  Certificate Provider
+
+Command: 
+```
+openssl pkcs12 -export -out <Yourname>.pfx -inkey <Yourname_Private>.key -in certificate.crt -certfile <Your_Intermediate>.crt
+```
+Ref. https://www.ssl.com/how-to/create-a-pfx-p12-certificate-file-using-openssl/
+
+
+# Add Keystore .JKS to .PFX file
+Case file .jks import to .pfx
+
+Command: 
+```
+“$JAVA_HOME/bin/keytool -importkeystore -destkeystore <Yourname>.jks -srckeystore <Yourname>.pfx -srcstoretype pkcs12 -alias <YourDomain>”
+```
