@@ -56,6 +56,15 @@ dnf install kernel-devel zfs
 /sbin/modprobe zfs
 ```
 
+If problem with zfs you trying to remove with Command:
+```
+ dkms status
+ yum remove zfs spl kmod-zfs
+ yum install zfs 
+ /sbin/modprobe zfs
+```
+
+
 # Create Pool
 
 Step 1
