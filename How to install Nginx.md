@@ -37,16 +37,18 @@ $ sudo wget -P /etc/yum.repos.d https://cs.nginx.com/static/files/nginx-plus-ama
 $ sudo wget -P /etc/yum.repos.d https://cs.nginx.com/static/files/nginx-plus-6.repo
 ```
 	○ For version 7.4+ of CentOS, Oracle Linux, or RHEL:
+```
 $ sudo wget -P /etc/yum.repos.d https://cs.nginx.com/static/files/nginx-plus-7.4.repo
 ```
 	○ For version 8.0+ of CentOS, Oracle Linux, or RHEL:
+```
 $ sudo wget -P /etc/yum.repos.d https://cs.nginx.com/static/files/nginx-plus-8.repo
 ```
-Install the nginx-plus package. Any older NGINX Plus package is automatically replaced.
+5. Install the nginx-plus package. Any older NGINX Plus package is automatically replaced.
 ```
 $ sudo yum install nginx-plus
 ```
-To enable the nginx service start at boot, run the command:
+6. To enable the nginx service start at boot, run the command:
 ```
 $ sudo systemctl enable nginx.service
 ```
