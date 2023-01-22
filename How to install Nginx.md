@@ -24,23 +24,23 @@ $ sudo yum install ca-certificates
 ```
 
 4. Download the nginx-plus-repo file and copy it to the /etc/yum.repos.d/ directory. Each version of Amazon Linux, CentOS, Oracle Linux, or RHEL has its own repo file.
-    ○ For Amazon Linux:
+For Amazon Linux:
 ```
 $ sudo wget -P /etc/yum.repos.d https://cs.nginx.com/static/files/nginx-plus-amazon.repo
 ```
-	○ For Amazon Linux 2:
+For Amazon Linux 2:
 ```
 $ sudo wget -P /etc/yum.repos.d https://cs.nginx.com/static/files/nginx-plus-amazon2.repo
 ```
-	○ For version 6 of CentOS, Oracle Linux, or RHEL:
+For version 6 of CentOS, Oracle Linux, or RHEL:
 ```
 $ sudo wget -P /etc/yum.repos.d https://cs.nginx.com/static/files/nginx-plus-6.repo
 ```
-	○ For version 7.4+ of CentOS, Oracle Linux, or RHEL:
+For version 7.4+ of CentOS, Oracle Linux, or RHEL:
 ```
 $ sudo wget -P /etc/yum.repos.d https://cs.nginx.com/static/files/nginx-plus-7.4.repo
 ```
-	○ For version 8.0+ of CentOS, Oracle Linux, or RHEL:
+For version 8.0+ of CentOS, Oracle Linux, or RHEL:
 ```
 $ sudo wget -P /etc/yum.repos.d https://cs.nginx.com/static/files/nginx-plus-8.repo
 ```
