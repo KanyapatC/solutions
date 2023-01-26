@@ -54,12 +54,12 @@ $ sudo systemctl enable nginx.service
 
 # Debian and Ubuntu 
 NGINX Plus can be installed on the following versions of Debian or Ubuntu:
-	- Debian 9 (“Stretch”)
-	- Debian 10 (“Buster”)
-	- Ubuntu 16.04 LTS (“Xenial”) (i386, x86_64, ppc64le, aarch64)
-	- Ubuntu 18.04 LTS (“Bionic”)
-	- Ubuntu 19.04 (“Disco”)
-	- Ubuntu 19.10 (“Eoan”)
+- Debian 9 (“Stretch”)
+- Debian 10 (“Buster”)
+- Ubuntu 16.04 LTS (“Xenial”) (i386, x86_64, ppc64le, aarch64)
+- Ubuntu 18.04 LTS (“Bionic”)
+- Ubuntu 19.04 (“Disco”)
+- Ubuntu 19.10 (“Eoan”)
   
 To install NGINX Plus on Debian or Ubuntu:
 	1. Create the /etc/ssl/nginx directory:
