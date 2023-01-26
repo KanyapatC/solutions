@@ -14,7 +14,6 @@ Check version kernals
 kernel-3.10.0-327.36.3.el7.x86_64
 kernel-3.10.0-514.2.2.el7.x86_64
 kernel-3.10.0-693.5.2.el7.x86_64
-
 ```
 Remove old unused kernel automatically
 
