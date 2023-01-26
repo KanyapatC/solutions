@@ -2,9 +2,9 @@
 
 # Amazon Linux, CentOS, Oracle Linux, and RHEL 
 NGINX Plus can be installed on the following versions of Amazon Linux CentOS/Oracle Linux/RHEL:
-	- Amazon Linux 2018.03+ (x86_64)
-	- Amazon Linux 2 LTS (x86_64)
-	- CentOS/Oracle Linux/ Red Hat Enterprise Linux 6.5+ (i386, x86_64), 7.4+ (x86_64, ppc64le), 8.0+ (x86_64)
+- Amazon Linux 2018.03+ (x86_64)
+- Amazon Linux 2 LTS (x86_64)
+- CentOS/Oracle Linux/ Red Hat Enterprise Linux 6.5+ (i386, x86_64), 7.4+ (x86_64, ppc64le), 8.0+ (x86_64)
 
 To install NGINX Plus on Amazon Linux, CentOS, Oracle Linux, and RHEL:
 Create the /etc/ssl/nginx directory:
@@ -22,7 +22,6 @@ Install the required ca-certificates dependency:
 ```
 $ sudo yum install ca-certificates
 ```
-
 Download the nginx-plus-repo file and copy it to the /etc/yum.repos.d/ directory. Each version of Amazon Linux, CentOS, Oracle Linux, or RHEL has its own repo file.
 For Amazon Linux:
 ```
